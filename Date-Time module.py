@@ -25,7 +25,8 @@ def days_in_month(year, month):
             return False
     else:
         return False
-# test function 1
+# test function 1 
+# This statement is to check the functioning of the first function
 #print(days_in_month(2008, 12))
 
 def is_valid_date(year, month, day):
@@ -45,6 +46,7 @@ def is_valid_date(year, month, day):
     else:
         return False
 #check function 2
+# This statement is to check the functioning of the second function
 #print(is_valid_date(1998, 12, 31))
 
 def days_between(year1, month1, day1, year2, month2, day2):
@@ -67,6 +69,7 @@ def days_between(year1, month1, day1, year2, month2, day2):
     else:
         return 0
 #test function 3
+# This statement is to check the functioning of the third function
 #print(days_between(2003, 3, 4, 2005, 4, 2))
 
 def age_in_days(year, month, day):
@@ -83,4 +86,5 @@ def age_in_days(year, month, day):
     else:
         return 0
 #test function 4
-print(age_in_days(1978,6,25))
+# This statement is to check the functioning of the fourth function
+#print(age_in_days(1978,6,25))
